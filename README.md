@@ -95,13 +95,13 @@ wazuh-siem-cybersecurity-lab/
 
 | Step | Screenshot |
 |---|---|
-| 01 — VirtualBox lab setup | `WAZUH/01-virtualbox-lab.png` |
-| 02 — Ubuntu terminal access | `WAZUH/02-ubuntu-terminal.png` |
-| 03 — Server IP configured | `WAZUH/03-server-ip-address.png` |
-| 04 — Wazuh installation history | `WAZUH/04-wazuh-installation-history.png` |
-| 05 — Wazuh manager running | `WAZUH/05-wazuh-manager-running.png` |
-| 06 — Dashboard running | `WAZUH/06-wazuh-dashboard-running.png` |
-| 07 — Wazuh login page live | `WAZUH/07-wazuh-login-page.png` |
+| 01 — VirtualBox lab setup | ![01](WAZUH/01-virtualbox-lab.png) |
+| 02 — Ubuntu terminal access | ![02](WAZUH/02-ubuntu-terminal.png) |
+| 03 — Server IP configured | ![03](WAZUH/03-server-ip-address.png) |
+| 04 — Wazuh installation history | ![04](WAZUH/04-wazuh-installation-history.png) |
+| 05 — Wazuh manager running | ![05](WAZUH/05-wazuh-manager-running.png) |
+| 06 — Dashboard running | ![06](WAZUH/06-wazuh-dashboard-running.png) |
+| 07 — Wazuh login page live | ![07](WAZUH/07-wazuh-login-page.png) |
 
 ---
 
@@ -138,11 +138,11 @@ iptables -A INPUT -m state --state INVALID -j DROP
 
 | Step | Screenshot |
 |---|---|
-| 09 — IPTables installation | `IPTABLES/09-iptables-installation.png` |
-| 10 — Default DROP policies set | `IPTABLES/10-firewall-default-policies.png` |
-| 11 — SSH rule configured | `IPTABLES/11-iptables-ssh-rule.png` |
-| 12 — Web traffic rules | `IPTABLES/12-iptables-web-rules.png` |
-| 13 — Invalid packet rule | `IPTABLES/13-invalid-packet-rule.png` |
+| 09 — IPTables installation | ![09](IPTABLES/09-iptables-installation.png) |
+| 10 — Default DROP policies set | ![10](IPTABLES/10-firewall-default-policies.png) |
+| 11 — SSH rule configured | ![11](IPTABLES/11-iptables-ssh-rule.png) |
+| 12 — Web traffic rules | ![12](IPTABLES/12-iptables-web-rules.png) |
+| 13 — Invalid packet rule | ![13](IPTABLES/13-invalid-packet-rule.png) |
 
 ---
 
@@ -176,11 +176,11 @@ nmap -A -O <ubuntu-server-ip>
 
 | Step | Screenshot |
 |---|---|
-| 19 — Kali IP configured | `ATTACK_SIMULATION/19-kali-ip-address.png` |
-| 20 — Connectivity test | `ATTACK_SIMULATION/20-kali-connectivity-test.png` |
-| 21 — Nmap attack launched | `ATTACK_SIMULATION/21-kali-nmap-attack.png` |
-| 22 — Service enumeration | `ATTACK_SIMULATION/22-kali-service-enumeration.png` |
-| 23 — Advanced reconnaissance | `ATTACK_SIMULATION/23-kali-advanced-reconnaissance.png` |
+| 19 — Kali IP configured | ![19](ATTACK_SIMULATION/19-kali-ip-address.png) |
+| 20 — Connectivity test | ![20](ATTACK_SIMULATION/20-kali-connectivity-test.png) |
+| 21 — Nmap attack launched | ![21](ATTACK_SIMULATION/21-kali-nmap-attack.png) |
+| 22 — Service enumeration | ![22](ATTACK_SIMULATION/22-kali-service-enumeration.png) |
+| 23 — Advanced reconnaissance | ![23](ATTACK_SIMULATION/23-kali-advanced-reconnaissance.png) |
 
 ---
 
